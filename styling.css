@@ -1,0 +1,53 @@
+body{
+    background: url(images/bcimage.jpg) center center fixed;
+    background-size: cover;
+    color: white;
+}
+#header{
+    text-align: center;
+    font-size: 7vw;
+}
+#lap{
+    text-align: right;
+    font-size: 4vw;
+}
+#time{
+    text-align: center;
+    font-size: 10vw;
+}
+#controlcontainer{
+    margin-bottom: 100px;
+}
+.control{
+    color: white;
+    background-color: #d7A04e;
+    text-align: center;
+    padding: 25% 0;
+    cursor: pointer;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100px;
+    font-size: 2.5vw
+    
+}
+.control:active{
+    color: #d7A04e;
+    background-color: white;
+}
+#laps{
+    max-height: 270px;
+    overflow-y: scroll;
+}
+.lap{
+    height: 50px;
+    border-bottom: 1px solid white;
+    margin: 15px;
+}
+.laptimetitle{
+    font-size: 1.5em;
+    float: left;
+}
+.laptime{
+    font-size: 2em;
+    float: right;
+}
